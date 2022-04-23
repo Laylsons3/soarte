@@ -69,14 +69,39 @@ main {
     padding: 10px;
 }
 
+.texto-quem-somos {
+    width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+
 .cursos {
-    height: 120px;
+    height: 100%;
     background-color: greenyellow;
 }
 
+.button-curso {
+    width: 80px;
+    margin: 5px;
+    padding: 10px;
+    background: gold;
+    filter: drop-shadow(0 0 1px black);
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.button-curso:hover {
+    filter: brightness(1.12);
+    transform: scale(1.15);
+}
+
 .apoie {
-    height: 120px;
+    height: 100%;
     background-color: violet;
+}
+
+.button-apoie {
+    background: orange;
 }
 
 .contato {

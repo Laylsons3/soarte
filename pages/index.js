@@ -42,15 +42,39 @@ function Home() {
         <h1>
             Quem somos
         </h1>
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum.
+        <p className="texto-quem-somos">
+        There are many variations of passages of Lorem Ipsum available, 
+        but the majority have suffered alteration in some form, by
+        injected humour, or randomised words which don't look even 
+        slightly believable. If you are going to use a passage of 
+        Lorem Ipsum, you need to be sure there isn't anything 
+        embarrassing hidden in the middle of text. All the Lorem
+        Ipsum generators on the Internet tend to repeat predefined
+        chunks as necessary, making this the first true generator
+        on the Internet. It uses a dictionary of over 200 Latin
+        words, combined with a handful of model sentence structures,
+        to generate Lorem Ipsum which looks reasonable. The
+        generated Lorem Ipsum.
+        </p>
     </section>
     <section className="cursos">
             <h1>Cursos</h1>
-            <a></a>
+            <label><a href="#"><img className="button-curso" src="/images/flute.png" alt="Flauta Doce" /></a></label>
+            <label><a href="#"><img className="button-curso" src="/images/transverse-flute.png" alt="Flauta Transversal" /></a></label>
+            <label><a href="#"><img className="button-curso" src="/images/clarinet.png" alt="Clarinete" /></a></label>
+            <label><a href="#"><img className="button-curso" src="/images/guitar.png" alt="Violão" /></a></label>
+            <label><a href="#"><img className="button-curso" src="/images/sax.png" alt="Saxofone" /></a></label>
+            <label><a href="#"><img className="button-curso" src="/images/trumpet.png" alt="Metais" /></a></label>
+            <label><a href="#"><img className="button-curso" src="/images/voice.png" alt="Canto" /></a></label>
+            <label><a href="#"><img className="button-curso" src="/images/drum.png" alt="Percussão" /></a></label>
+            <label><a href="#"><img className="button-curso" src="/images/pc.png" alt="Informática" /></a></label>
     </section>
     <section className="apoie">
             <h1>Apoie</h1>
-            <a></a>
+            <label><a className="button-apoie" href="#">APOIE!</a></label>
+            <h4>Nos ajude a continuar
+            <strong> transformando vidas</strong> através
+            da <strong>arte!</strong></h4>
     </section>
     <section className="contato">
             <h1>Contato</h1>
