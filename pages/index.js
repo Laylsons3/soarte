@@ -36,6 +36,8 @@ function Home() {
             <img className="foto-galeria" src='/images/paulo.jpg' alt="Professor Paulo Ferreira"/>
             <img className="foto-galeria" src='/images/luciano.jpg' alt="Professor Luciano Pereira"/>
             <img className="foto-galeria" src='/images/manoel.jpg' alt="Professor Manoel Teodósio"/>
+                <br />
+            <a className="button-galeria" href="#">Ver mais...</a>
     </section>
 
     <section className="quem-somos">
@@ -71,10 +73,8 @@ function Home() {
     </section>
     <section className="apoie">
             <h1>Apoie</h1>
-            <label><a className="button-apoie" href="#">APOIE!</a></label>
-            <h4>Nos ajude a continuar
-            <strong> transformando vidas</strong> através
-            da <strong>arte!</strong></h4>
+            <a className="button-apoie" href="#">APOIE!</a>
+            <p style={{fontSize:'14pt'}}>Nos ajude a continuar <span style={{fontWeight:'900'}}>transformando vidas</span> através da <span style={{fontWeight:'900'}}>arte!</span></p>
     </section>
     <section className="contato">
             <h1>Contato</h1>

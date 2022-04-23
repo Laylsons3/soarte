@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box;}
 body {
     background: #fafafa;
@@ -50,6 +50,7 @@ main {
 .galeria {
     height: 100%;
     background-color: gold;
+    padding: 15px;
 }
 
 .foto-galeria {
@@ -63,10 +64,29 @@ main {
     transform: scale(1.25);
 }
 
+.button-galeria {
+    display: inline-block;
+    background: orange;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 500;
+    font-size: x-large;
+    padding: 8px 22px;
+    border-radius: 10px;
+    border: 4px solid rgb(211, 137, 0);
+    border-bottom: 4px solid rgb(100, 70, 13);
+    border-right: 4px solid rgb(100, 70, 13);
+}
+
+.button-galeria:hover {
+    filter: brightness(1.1);
+}
+
 .quem-somos {
     height: 100%;
     background-color: #f06;
-    padding: 10px;
+    padding: 15px;
 }
 
 .texto-quem-somos {
@@ -78,6 +98,7 @@ main {
 .cursos {
     height: 100%;
     background-color: greenyellow;
+    padding: 15px;
 }
 
 .button-curso {
@@ -98,15 +119,32 @@ main {
 .apoie {
     height: 100%;
     background-color: violet;
+    padding: 15px;
 }
 
 .button-apoie {
+    display: inline-block;
     background: orange;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 700;
+    font-size: xx-large;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 4px solid rgb(211, 137, 0);
+    border-bottom: 4px solid rgb(100, 70, 13);
+    border-right: 4px solid rgb(100, 70, 13);
+}
+
+.button-apoie:hover {
+    filter: brightness(1.1);
 }
 
 .contato {
     height: 120px;
     background-color: rgb(0, 132, 255);
+    padding: 15px;
 }
 
 footer {
