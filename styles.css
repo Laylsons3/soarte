@@ -54,4 +54,10 @@ main {
 
 .foto-galeria {
     width: 250px;
+    padding: 3px;
+    transition: .2s;
+}
+.foto-galeria:hover {
+    filter: brightness(1.15);
+    transform: scale(1.1);
 }

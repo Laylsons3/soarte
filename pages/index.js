@@ -33,9 +33,9 @@ function Home() {
 <main>
     <section className="galeria">
             <h1>Galeria</h1>
-            <img className="foto-galeria" src='/images/paulo.png' alt="Professor Paulo Ferreira"/>
-            <img className="foto-galeria" src='/images/luciano.png' alt="Professor Luciano Pereira"/>
-            <img className="foto-galeria" src='/images/manoel.png' alt="Professor Manoel Teodósio"/>
+            <img className="foto-galeria" src='/images/paulo.jpg' alt="Professor Paulo Ferreira"/>
+            <img className="foto-galeria" src='/images/luciano.jpg' alt="Professor Luciano Pereira"/>
+            <img className="foto-galeria" src='/images/manoel.jpg' alt="Professor Manoel Teodósio"/>
 
     </section>
 </main>
