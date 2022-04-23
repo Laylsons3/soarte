@@ -57,7 +57,34 @@ main {
     padding: 3px;
     transition: .2s;
 }
+
 .foto-galeria:hover {
     filter: brightness(1.15);
-    transform: scale(1.1);
+    transform: scale(1.25);
+}
+
+.quem-somos {
+    height: 100%;
+    background-color: #f06;
+    padding: 10px;
+}
+
+.cursos {
+    height: 120px;
+    background-color: greenyellow;
+}
+
+.apoie {
+    height: 120px;
+    background-color: violet;
+}
+
+.contato {
+    height: 120px;
+    background-color: rgb(0, 132, 255);
+}
+
+footer {
+    height: 120px;
+    background-color: rgb(245, 188, 83);
 }
