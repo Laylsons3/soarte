@@ -5,6 +5,7 @@ body {
     font-weight: 500;
     width: 100%;
     background: #23a6d5;
+    min-width: 366px;
 }
 
 
@@ -151,9 +152,6 @@ main {
     filter: brightness(1.1);
 }
 .contato {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    min-height: 100%;
     background: #ffff0033;
     padding: 15px;
 }

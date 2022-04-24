@@ -86,17 +86,6 @@ function Home() {
             <p style={{fontSize:'14pt'}}>Nos ajude a continuar <span style={{fontWeight:'900'}}>transformando vidas</span> através da <span style={{fontWeight:'900'}}>arte!</span></p>
     </section>
     <section className="contato" id="contato">
-            <div style={{width:'320px', margin:'auto'}}>
-                <h2 style={{paddingBottom:'15px'}}>
-                    Endereço da Soarte
-                </h2>
-                <p>
-                    Rua Antonio Luiz de Sousa, 560 - Monguba - Pacatuba-CE - CEP 61.805-770<br />
-                    E-mail: soartemusica@gmail.com<br />
-                    CNPJ: 10.967.869/0001-63<br />
-                    Telefone: (85) 9 9129-2607
-                </p>
-            </div>
             <div className="form-contato">
                     <h1>Contato</h1>
                 <form style={{width:'350px',margin:'auto'}} autoComplete="on">
@@ -109,10 +98,23 @@ function Home() {
                     <input type="submit"></input>
                 </form>
             </div>
+
+
+
     </section>
 </main>
 <footer>
-        <h1 style={{textAlign:'center',}}></h1>
+        <div style={{width:'320px', margin:'auto'}}>
+                <h2 style={{paddingBottom:'15px'}}>
+                    Endereço da Soarte
+                </h2>
+                <p>
+                    Rua Antonio Luiz de Sousa, 560 - Monguba - Pacatuba-CE - CEP 61.805-770<br />
+                    E-mail: soartemusica@gmail.com<br />
+                    CNPJ: 10.967.869/0001-63<br />
+                    Telefone: (85) 9 9129-2607
+                </p>
+            </div>
 </footer>
 </div>
     )
