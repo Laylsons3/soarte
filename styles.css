@@ -4,21 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     width: 100%;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100%;
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    background: #23a6d5;
 }
 
 
@@ -27,6 +13,7 @@ header {
     height: 35vh;
     display: grid;
     grid-template-columns: 2fr 4fr;
+    background: #ffffff33;
 }
 
 main {
@@ -64,9 +51,12 @@ main {
     height: 100%;
 }
 
+
+/* GALERIA */
+
 .galeria {
     height: 100%;
-    background-color: transparent;
+    background: #ffff0033;
     padding: 15px;
 }
 
@@ -100,9 +90,13 @@ main {
     filter: brightness(1.1);
 }
 
+
+/* FIM DA GALERIA */
+
+
 .quem-somos {
     height: 100%;
-    background-color: transparent;
+    background: #ffffff33;
     padding: 15px;
 }
 
@@ -114,7 +108,7 @@ main {
 
 .cursos {
     height: 100%;
-    background-color: transparent;
+    background: #ffff0033;
     padding: 15px;
 }
 
@@ -135,7 +129,7 @@ main {
 
 .apoie {
     height: 100%;
-    background-color: transparent;
+    background: #ffffff33;
     padding: 15px;
 }
 
@@ -161,7 +155,7 @@ main {
     display: grid;
     grid-template-columns: 4fr 4fr;
     min-height: 100%;
-    background: transparent;
+    background: #ffff0033;
     padding: 15px;
 }
 
