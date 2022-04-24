@@ -53,7 +53,7 @@ function Home() {
         <h1>
             Quem somos
         </h1>
-        <p className="texto-quem-somos">
+        <p className="texto-quem-somos" style={{maxWidth:'650px'}}>
         There are many variations of passages of Lorem Ipsum available, 
         but the majority have suffered alteration in some form, by
         injected humour, or randomised words which don't look even 
@@ -62,23 +62,20 @@ function Home() {
         embarrassing hidden in the middle of text. All the Lorem
         Ipsum generators on the Internet tend to repeat predefined
         chunks as necessary, making this the first true generator
-        on the Internet. It uses a dictionary of over 200 Latin
-        words, combined with a handful of model sentence structures,
-        to generate Lorem Ipsum which looks reasonable. The
-        generated Lorem Ipsum.
+        on the Internet. 
         </p>
     </section>
     <section className="cursos" id="cursos">
             <h1>Cursos</h1>
-            <label><a href="#"><img className="button-curso" src="/images/flute.png" alt="Flauta Doce" /></a></label>
-            <label><a href="#"><img className="button-curso" src="/images/transverse-flute.png" alt="Flauta Transversal" /></a></label>
-            <label><a href="#"><img className="button-curso" src="/images/clarinet.png" alt="Clarinete" /></a></label>
-            <label><a href="#"><img className="button-curso" src="/images/guitar.png" alt="Violão" /></a></label>
-            <label><a href="#"><img className="button-curso" src="/images/sax.png" alt="Saxofone" /></a></label>
-            <label><a href="#"><img className="button-curso" src="/images/trumpet.png" alt="Metais" /></a></label>
-            <label><a href="#"><img className="button-curso" src="/images/voice.png" alt="Canto" /></a></label>
-            <label><a href="#"><img className="button-curso" src="/images/drum.png" alt="Percussão" /></a></label>
-            <label><a href="#"><img className="button-curso" src="/images/pc.png" alt="Informática" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/flute.png" alt="Flauta Doce" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/transverse-flute.png" alt="Flauta Transversal" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/clarinet.png" alt="Clarinete" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/guitar.png" alt="Violão" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/sax.png" alt="Saxofone" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/trumpet.png" alt="Metais" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/voice.png" alt="Canto" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/drum.png" alt="Percussão" /></a></label>
+            <label><a href="#cursos"><img className="button-curso" src="/images/pc.png" alt="Informática" /></a></label>
     </section>
     <section className="apoie" id="apoie">
             <h1>Apoie</h1>
@@ -95,7 +92,7 @@ function Home() {
                     <input name="email" type="text" size="30" /><br />
                     <label>Mensagem: </label><br />
                     <textarea name="message" rows="4" cols="38" /><br />
-                    <input type="submit"></input>
+                    <input style={{background:'green',padding:'6px 20px',fontSize:'14pt',fontWeight:'700',color:'#fff',}} type="submit"></input>
                 </form>
             </div>
 
