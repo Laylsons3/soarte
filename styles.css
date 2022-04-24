@@ -7,7 +7,7 @@ body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 100%;
 }
 @keyframes gradient {
 	0% {
@@ -168,4 +168,16 @@ main {
 footer {
     height: 100%;
     background-color: transparent;
+}
+
+
+
+
+.div-matricula {
+    background: #ffffff77;
+    margin: auto;
+    margin-top: 3vh;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
 }

@@ -3,9 +3,12 @@
 // azul     3380ce
 // laranja  e69444
 // gold     ffd700
+import Link from 'next/link';
+
 function Home() {
     return (
 <div>
+    
 <title>Soarte</title>
 
 
@@ -26,6 +29,12 @@ function Home() {
             <div>
                 <img className="logo" src='/images/logo-soarte.svg' alt="Logo Soarte"/>
             </div>
+            
+        </div>
+        <div>
+            <Link href="/matricula">
+            <a style={{display:'table',margin:'auto',background:'orange',padding:'10px 22px',textDecoration:'none',borderRadius:'6px',color:'#000',filter:'drop-shadow(1px 1px 2px black'}} >MATRÍCULA</a>
+            </Link>
         </div>
     </section>
 </header>
