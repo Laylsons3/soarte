@@ -1,8 +1,10 @@
 import Link from 'next/link';
+import Header from '../components/Header'
 
 function Matricula() {
     return (
         <div>
+        <Header />
         <Link href="/">
         <a style={{display:'table',margin:'auto',marginTop:'20px',background:'white',padding:'10px 22px',textDecoration:'none',borderRadius:'6px',color:'#000',filter:'drop-shadow(1px 1px 2px black'}} className='linkTOP'>Voltar ao Inicio</a>
         </Link>
