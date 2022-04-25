@@ -1,10 +1,20 @@
 import Link from 'next/link';
+import Head from 'next/dist/shared/lib/head';
 import Header from '../components/Header'
 
 function Matricula() {
     return (
         <div>
-        <Header />
+            
+            <Head>
+            <title>Soarte</title>
+            <link rel="icon" type="image/x-icon" href="/images/logo-soarte.ico"/>
+            <meta name="description" content="Centro Cultural Sons da Aratanha, Sociedade dos artistas e estudantes de Pacatuba, Escola de Música" />
+            <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+            </Head>
+
+            <Header />
+
         <Link href="/">
         <a style={{display:'table',margin:'auto',marginTop:'20px',background:'white',padding:'10px 22px',textDecoration:'none',borderRadius:'6px',color:'#000',filter:'drop-shadow(1px 1px 2px black'}} className='linkTOP'>Voltar ao Inicio</a>
         </Link>

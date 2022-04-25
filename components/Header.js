@@ -2,8 +2,9 @@ function Home() {
     return (
 <div>
 
+
+
 <header>
-<title>Soarte</title>
     <section className="cabecalho">
         <div className="menu-e-logo">
             <div>
