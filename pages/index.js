@@ -28,7 +28,7 @@ function Home() {
 <Apoie />
 <Contato />
 </main>
-<Footer />
+<Footer /><br /><br /><br /><br />
 </div>
     )
 }

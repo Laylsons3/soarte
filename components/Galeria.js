@@ -14,7 +14,6 @@ function Home() {
             <img className="foto-galeria" src='/images/galeria/img4.jpg'/>
             <img className="foto-galeria" src='/images/galeria/img5.jpg'/>
             <img className="foto-galeria" src='/images/galeria/img6.jpg'/><br />
-            <img className="foto-galeria" src='/images/galeria/img7.jpg'/>
             
 
 

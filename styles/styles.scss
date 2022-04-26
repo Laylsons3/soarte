@@ -4,9 +4,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     width: 100%;
-    background: #505050;
     min-width: 366px;
-    color: #fff;
+
+    background: #eee;
+    color: #222;
 }
 
 h1{
@@ -15,7 +16,7 @@ h1{
 
 header {
     height: 170px;
-    background: url('./public/images/bg-2.png');
+    background: url('/images/bg-2.png');
 
 }
 
@@ -52,7 +53,6 @@ main {
 
 
 /* GALERIA */
-
 .galeria {
     height: 100%;
     padding: 15px;
@@ -89,9 +89,7 @@ main {
 }
 
 
-/* FIM DA GALERIA */
-
-
+/* QUEM SOMOS */
 .quem-somos {
     height: 100%;
     padding: 15px;
@@ -102,6 +100,13 @@ main {
     text-align: justify;
 }
 
+
+/* CURSOS */
+.div-cursos {
+    display: flex;
+    justify-content: center;
+}
+
 .cursos {
     height: 100%;
     padding: 15px;
@@ -109,11 +114,11 @@ main {
 
 .button-curso {
     width: 80px;
-    margin: 5px;
-    padding: 10px;
+    margin: 2px;
+    padding: 5px;
     background: gold;
     filter: drop-shadow(0 0 1px black);
-    border-radius: 50%;
+    border-radius: 25%;
     transition: .2s;
 }
 
@@ -122,6 +127,20 @@ main {
     transform: scale(1.15);
 }
 
+.div-button-curso {
+    span {
+        content: "";
+        visibility: hidden;
+    }
+}
+
+.div-button-curso:hover {
+    span {
+        visibility: visible;
+    }
+}
+
+/* APOIE */
 .apoie {
     height: 100%;
     padding: 15px;
@@ -145,6 +164,8 @@ main {
 .button-apoie:hover {
     filter: brightness(1.1);
 }
+
+/* CONTATO */
 .contato {
     padding: 15px;
 }
@@ -171,3 +192,7 @@ footer {
 
 
 }
+
+
+
+
