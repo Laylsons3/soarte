@@ -11,12 +11,13 @@ body {
 }
 
 h1{
+    padding-top: 15px;
     padding-bottom: 15px;
 }
 
 header {
     height: 170px;
-    background: url('/images/bg-2.png');
+    background: url('/images/bg-2.png') green;
 
 }
 
@@ -102,43 +103,25 @@ main {
 
 
 /* CURSOS */
-.div-cursos {
-    display: flex;
-    justify-content: center;
-}
-
 .cursos {
-    height: 100%;
-    padding: 15px;
-}
-
-.button-curso {
-    width: 80px;
-    margin: 2px;
-    padding: 5px;
-    background: gold;
-    filter: drop-shadow(0 0 1px black);
-    border-radius: 25%;
-    transition: .2s;
-}
-
-.button-curso:hover {
-    filter: brightness(1.12);
-    transform: scale(1.15);
-}
-
-.div-button-curso {
-    span {
-        content: "";
-        visibility: hidden;
+    div {
+        display: contents;
+        img {
+            width: 80px;
+            background: gold;
+            margin: 4px;
+            border-radius: 25%;
+            border: 3px solid rgb(236, 174, 17);
+            transition: .15s;
+        }
+        img:hover {
+            filter: brightness(1.15);
+            transform: scale(1.15);
+        }
     }
 }
 
-.div-button-curso:hover {
-    span {
-        visibility: visible;
-    }
-}
+
 
 /* APOIE */
 .apoie {
