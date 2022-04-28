@@ -39,7 +39,7 @@ function Home() {
     </main>
 
 
-<p style={{textAlign:'center',margin:'25px'}}>&copy; Soarte 2022 - Todos os direitos reservados - v1.3.2</p>
+<p style={{textAlign:'center',margin:'25px'}}>&copy; Soarte 2022 - Todos os direitos reservados - v1.3.3</p>
 </div>
     )
 }
