@@ -1,0 +1,57 @@
+/* QUEM SOMOS */
+
+.quem-somos {
+    display: flex;
+    flex-direction: column;
+    background: url('/images/bg-quem-somos.png') no-repeat;
+    background-size: cover;
+
+
+
+
+    h1 {
+        font-size: 45px;
+        color: #fafafa55;
+        text-align: left;
+        margin-left: 80px;
+    }
+
+    div {
+        width: 550px;
+        background-color: #fafafa;
+        margin-left: 100px;
+        margin-bottom: 15px;
+        p {
+            color: #222;
+            font-size: 14px;
+            font-weight: 300;
+            padding: 20px;
+            padding-bottom: 0px;
+            text-align: justify;
+        }
+    }
+}
+
+.texto-quem-somos {
+    margin: auto;
+    text-align: justify;
+}
+
+.logo-bg-quem-somos {
+        background-color: green !important;
+        position: relative;
+        border-radius: 5px;
+        width: 80px !important;
+        height: 80px !important;
+        transform: translateX(400px) translateY(50px);
+        img {
+            border-radius: 5px;
+            padding: 5px;
+            width: 80px !important;
+            height: 80px !important;
+
+
+
+            filter: brightness(5);
+        }
+}

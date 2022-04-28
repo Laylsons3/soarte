@@ -1,3 +1,8 @@
+//Background #eee
+//Texto #222
+//Botão laranja rgb(255,165,0)
+//Botão verde rgb(0,128,0)
+
 import Head from 'next/head'
 import Header from '../components/Header.js'
 import Galeria from '../components/Galeria.js'
@@ -19,16 +24,21 @@ function Home() {
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
 
-        <Header />
-        <ButtonMatricula />
-<main>
-<Cursos />
-<Galeria />
-<QuemSomos />
-<Apoie />
-<Contato />
-</main>
-<Footer /><br /><br /><br /><br />
+        <Header> <ButtonMatricula /> </Header>
+
+    <main>
+
+        <Galeria />
+        <QuemSomos />
+        <Cursos />
+        <Apoie />
+        <Contato />
+        <Footer />
+
+    </main>
+
+
+
 </div>
     )
 }
