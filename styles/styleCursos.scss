@@ -1,0 +1,19 @@
+.cursos {
+    div {
+        display: contents;
+        img {
+            width: 80px;
+            background: gold;
+            margin: 4px;
+            border-radius: 25%;
+            border: 3px solid rgb(236, 174, 17);
+            transition: .15s;
+        }
+        
+        img:hover {
+            filter: brightness(1.15);
+            transform: scale(1.15);
+            cursor: pointer;
+        }
+    }
+}   

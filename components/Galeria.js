@@ -15,7 +15,7 @@ function Home() {
 
             
                 <br />
-            <a className="button-galeria" href="#">Ver mais...</a>
+            
     </section>
 
 </div>

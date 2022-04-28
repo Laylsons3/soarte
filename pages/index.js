@@ -11,7 +11,7 @@ import QuemSomos from '../components/QuemSomos.js'
 import Apoie from '../components/Apoie.js'
 import Contato from '../components/Contato.js'
 import Footer from '../components/Footer.js'
-import ButtonMatricula from '../components/ButtonMatricula'
+import DivInsta from '../components/DivInsta'
 
 
 function Home() {
@@ -24,14 +24,14 @@ function Home() {
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
 
-        <Header> <ButtonMatricula /> </Header>
+        <Header>  </Header>
 
     <main>
 
         <Galeria />
         <QuemSomos />
-        <img style={{width:'100%'}} src='images/bg-insta.png' />
-        <Cursos />
+        <DivInsta />
+        <Cursos /> 
         <Apoie />
         <Contato />
         <Footer />
@@ -39,7 +39,7 @@ function Home() {
     </main>
 
 
-v1.3.1
+<p style={{textAlign:'center',margin:'25px'}}>&copy; Soarte 2022 - Todos os direitos reservados - v1.3.2</p>
 </div>
     )
 }
