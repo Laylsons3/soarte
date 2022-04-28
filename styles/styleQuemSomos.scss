@@ -5,15 +5,16 @@
     flex-direction: column;
     background: url('/images/bg-quem-somos.png') no-repeat;
     background-size: cover;
+    width: 100%;
 
 
 
 
     h1 {
-        font-size: 45px;
+        font-size: 50px;
         color: #fafafa55;
         text-align: left;
-        margin-left: 80px;
+        margin-left: 120px;
     }
 
     div {
@@ -23,7 +24,7 @@
         margin-bottom: 15px;
         p {
             color: #222;
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 300;
             padding: 20px;
             padding-bottom: 0px;
@@ -41,12 +42,12 @@
         background-color: green !important;
         position: relative;
         border-radius: 5px;
-        width: 80px !important;
-        height: 80px !important;
+        width: 90px !important;
+        height: 90px !important;
         transform: translateX(400px) translateY(50px);
         img {
             border-radius: 5px;
-            padding: 5px;
+            padding: 6px;
             width: 80px !important;
             height: 80px !important;
 

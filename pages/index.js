@@ -30,6 +30,7 @@ function Home() {
 
         <Galeria />
         <QuemSomos />
+        <img style={{width:'100%'}} src='images/bg-insta.png' />
         <Cursos />
         <Apoie />
         <Contato />
@@ -38,7 +39,7 @@ function Home() {
     </main>
 
 
-
+v1.2
 </div>
     )
 }
