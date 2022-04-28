@@ -39,7 +39,7 @@ function Home() {
     </main>
 
 
-v1.3
+v1.3.1
 </div>
     )
 }
