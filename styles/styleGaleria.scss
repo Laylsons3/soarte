@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+a {
+    visibility: hidden;
+}
+
+
+.galeria {
+    
+    img {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        filter: drop-shadow(6px 6px 0 gray);
+        transition: .2s;
+        border-radius: 8px;
+        margin: 10px;
+    }
+}
+
+.galeria {
+    img:hover {
+        width: 150px;
+        height: 200px;
+        object-fit: cover;
+        filter: drop-shadow(6px 6px 0 orange);
+        transform: translateY(-40px);
+    }
+}
