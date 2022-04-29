@@ -5,7 +5,7 @@ function Home() {
 <section className="contato" id="contato">
             <div className="form-contato">
                     <h1>Contato</h1>
-                <form action="/" method="post" style={{width:'350px',margin:'auto'}} autoComplete="on">
+                <form method="get" style={{width:'350px',margin:'auto'}} autoComplete="on">
                     <label>Nome: </label>
                     <input name="nome" type="text" size="30" /><br />
                     <label>E-mail: </label>

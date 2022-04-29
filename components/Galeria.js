@@ -2,42 +2,68 @@ function Home() {
     return (
 <div>
 
-<section className="galeria" id="galeria">
+    <section className="galeria" id="galeria">
 
-            <h1>-GALERIA-</h1>
-            <div className="content-galeria">
+    <p class="heading">GALERIA</p>
+  <div class="gallery-image">
+    <div class="img-box">
+      <img src="images/galeria/img1.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>Recital de Natal</p>
+          <p class="opacity-low">2017</p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="images/galeria/img2.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>APRESENTAÇÃO</p>
+          <p class="opacity-low"></p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="images/galeria/img3.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>APRESENTAÇÃO</p>
+          <p class="opacity-low"></p>
+        </div>
+      </div>
+    </div>
+    <div class="img-box">
+      <img src="images/galeria/img4.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>BANDA DE MÚSICA SONS DA ARATANHA</p>
+          <p class="opacity-low"></p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="images/galeria/img5.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>APRESENTAÇÃO</p>
+          <p class="opacity-low"></p>
+        </div>
+      </div> 
+    </div>
+    <div class="img-box">
+      <img src="images/galeria/img6.jpg" alt="" />
+      <div class="transparent-box">
+        <div class="caption">
+          <p>LOCAL.EVENT</p>
+          <p class="opacity-low"></p>
+        </div>
+      </div> 
+    </div>
+  </div>
 
-            <div className="relative">Recital de Natal
-            <img className="absolute" src='images/galeria/img1.jpg'/>
-            </div>
-
-            <div className="relative">Recital de Natal
-            <img className="absolute" src='images/galeria/img2.jpg'/>
-            </div>
-
-            <div className="relative">Recital de Natal
-            <img className="absolute" src='images/galeria/img3.jpg'/>
-            </div>
-
-            <div className="relative">Recital de Natal
-            <img className="absolute" src='images/galeria/img4.jpg'/>
-            </div>
-
-            <div className="relative">Recital de Natal
-            <img className="absolute" src='images/galeria/img5.jpg'/>
-            </div>
-
-            <div className="relative">Recital de Natal
-            <img className="absolute" src='images/galeria/img6.jpg'/>
-            </div>
 
 
-            </div>
-            
-
-            
-            <br />
-            
     </section>
 
 </div>
