@@ -22,6 +22,8 @@ function Home() {
             <link rel="icon" type="image/x-icon" href="/images/logo-soarte.ico"/>
             <meta name="description" content="Centro Cultural Sons da Aratanha, Sociedade dos artistas e estudantes de Pacatuba, Escola de Música" />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+            <div> </div>
         </Head>
 
         <Header>  </Header>
@@ -37,7 +39,6 @@ function Home() {
         <Footer />
 
     </main>
-
 
 <p style={{textAlign:'center',margin:'25px'}}>&copy; Soarte 2022 - Todos os direitos reservados - v1.3.3</p>
 </div>

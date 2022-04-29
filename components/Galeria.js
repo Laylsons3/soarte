@@ -4,7 +4,7 @@ function Home() {
 
 <section className="galeria" id="galeria">
 
-            <h1>GALERIA</h1>
+            <h1>-GALERIA-</h1>
             <div className="content-galeria">
 
             <div className="relative">Recital de Natal
