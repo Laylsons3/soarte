@@ -6,7 +6,7 @@ function Home() {
 
     <section className="galeria" id="galeria">
 
-    <p class="heading">GALERIA</p>
+    <h1 class="heading">Galeria</h1>
   <div class="gallery-image">
     <div class="img-box">
       <img src="images/galeria/img1.jpg" alt="" />

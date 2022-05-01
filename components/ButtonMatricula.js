@@ -5,7 +5,7 @@ function Home() {
 <div>
 
 <Link href="/matricula">
-<a className='button-matricula'>MATRÍCULA</a>
+    <a className='button-matricula' alt="Botão para acessar a página de matrículas"><span>MATRÍCULA</span></a>
 </Link>
 
 </div>

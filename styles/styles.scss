@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
 *{margin:0;padding:0;box-sizing:border-box;}
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' ,'Poppins', sans-serif;
     font-weight: 500;
     width: 100%;
-    min-width: 366px;
-
+    min-width: 400px;
     background: #eee;
     color: #222;
 }
@@ -15,18 +15,30 @@ body {
     padding: 10px 22px;
     text-decoration: none;
     border-radius: 8px;
-    color: #fff;
+    color: #fafafa;
     position: relative;
     top: -40px;
+    letter-spacing: .2em;
+    span {
+        filter: drop-shadow(0 0 3px rgba(255, 166, 0, 0.5));
+    }
   }
   
   .button-matricula:hover {
-    filter: brightness(.95) drop-shadow(1px 1px 3px black);
+    filter: brightness(.95) drop-shadow(0 0 3px rgba(255, 166, 0, 0.7));
   }
 
 h1{
     padding-top: 15px;
     padding-bottom: 15px;
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 12px;
+    padding-top: 0;
+    color: #222;
+    font-weight: 700;
+    font-family: 'Poppins';
 }
 
 main {

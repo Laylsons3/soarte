@@ -4,7 +4,7 @@ function Home() {
 
 <section className="quem-somos" id="quem-somos">
         <h1>
-            QUEM SOMOS?
+            Quem Somos?
         </h1>
         <div>
             <p>
@@ -20,7 +20,7 @@ function Home() {
             São mais de 80 pessoas beneficiadas participando da programação, que acontece na semana e nos finais de semana.
              A SOARTE está localizada na Rua Antônio Luiz Souza, 560, no distrito de Monguba, em Pacatuba, Ceará.
             </p>
-            <div style={{marginTop:'-35px'}} className="logo-bg-quem-somos"><img src='/images/logo-soarte.svg' /></div>
+                <div style={{marginTop:'-35px'}} className="logo-bg-quem-somos"><img src='/images/logo-soarte.svg' /></div>
         </div>
 </section>
 

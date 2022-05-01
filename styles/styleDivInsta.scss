@@ -1,0 +1,67 @@
+.div-insta {
+  margin: 30px;
+  display: flow-root;
+  .svg {
+    img {
+      float: left;
+      width: 160px;
+      margin: 10px;
+    }
+    }
+    .texto-insta {
+      h1 {
+        line-height: 1;
+        font-size: 38pt;
+        letter-spacing: -2px;
+        text-align: left;  
+      }
+      p{
+        font-size: 18pt;
+        font-weight: 300;
+        text-align: left;
+        a:hover {
+          color: green;
+        }
+    }
+    .menina-arte {
+      width: 180px;
+      transform: scaleX(-1);
+      float: right;
+      margin-top: -55px;
+    }
+  }
+}
+
+/*  AJUSTES DE TELA  */
+@media screen and (max-width: 596px) {
+  .div-insta {
+    display: flex;
+  }
+  .svg {
+    img {
+      width: 120px !important;
+    }
+  }
+  .texto-insta {
+    .menina-arte {
+      transform: scale(65%) scaleX(-1) !important;
+      margin-top: -80px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 477px) {
+  .div-insta {
+    .texto-insta {
+      h1 {
+        font-size: 30pt;
+      }
+    }
+    .menina-arte {
+      transform: scale(55%) scaleX(-1) !important;
+      margin-top: -269px !important;
+      margin-right: -25px !important;
+    }
+  }
+}
+
