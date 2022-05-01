@@ -18,7 +18,7 @@ function Home() {
                         <li><a href="#">cursos</a></li>
                         <li><a href="#">quem somos</a></li>
                         <li><a href="#">apoie</a></li>
-                        <li><a href="#">contato</a></li>
+                        <li><a style={{backgroundColor:'green',padding:'2px 10px',borderRadius:'15px'}} href="#">contato</a></li>
             </ul>
         </nav>
             </div>

@@ -68,6 +68,7 @@ nav a:hover {
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
+    text-align: center;
 		background-color: #254441;
 		padding:14px 20px;	
 		color:#FFF;
@@ -88,6 +89,7 @@ nav a:hover {
 	/* Change menu item's width to 100% */
 	nav ul li {
 		display: block;
+    background-color: rgba(0, 128, 0, 0.7);
 		width: 100%;
 		}
 
@@ -110,7 +112,7 @@ nav a:hover {
   nav ul ul ul a{
 		padding:14px 20px;	
 		color:#FFF;
-		font-size:17px; 
+		font-size:17px;
 	}
   
   
