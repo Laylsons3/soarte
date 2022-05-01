@@ -16,7 +16,7 @@ header {
 /* Giving a background-color to the nav container. */
 nav { 
 	margin:0;
-  margin-left: 30px;
+  margin-left: 40px;
 	padding: 0;
   background-color: rgba(0,0,0,0.7);
 }
@@ -40,7 +40,8 @@ nav ul li {
 /* Styling the links */
 nav a {
 	display:block;
-	padding:14px 20px;	
+	padding: 5px;
+  margin: 5px 10px;
 	color:#FFF;
 	font-size:17px;
 	text-decoration:none;
@@ -48,13 +49,13 @@ nav a {
 
 /* Background color change on Hover */
 nav a:hover { 
-  text-decoration: underline;
+  border-bottom: 2px solid #fafafa;
 }
 
 /* Media Queries
 --------------------------------------------- */
 
-@media all and (max-width : 738px) {
+@media all and (max-width : 699px) {
 	nav {
 		margin: 0;
 	}
