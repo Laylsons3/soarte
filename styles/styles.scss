@@ -10,6 +10,20 @@ body {
     color: #222;
 }
 
+.button-matricula {
+    border: 4px solid orange;
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #fff;
+    position: relative;
+    top: -40px;
+  }
+  
+  .button-matricula:hover {
+    filter: brightness(.95) drop-shadow(1px 1px 3px black);
+  }
+
 h1{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -27,19 +41,6 @@ main {
     padding: 12px;
     filter: brightness(1);
 }
-
-.button-matricula {
-    display: table;
-    margin: auto;
-    background: orange;
-    padding: 10px 22px;
-    text-decoration: none;
-    border-radius: 6px;
-    color: #fff;
-    filter: drop-shadow(1px 1px 2px black);
-    margin-top: 20px;
-}
-
 
 .cabecalho {
     height: 100%;

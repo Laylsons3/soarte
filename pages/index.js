@@ -12,7 +12,7 @@ import Apoie from '../components/Apoie.js'
 import Contato from '../components/Contato.js'
 import Footer from '../components/Footer.js'
 import DivInsta from '../components/DivInsta'
-
+import ButtonMatricula from '../components/ButtonMatricula'
 
 function Home() {
     return (
@@ -29,7 +29,9 @@ function Home() {
         <Header>  </Header>
 
     <main>
-
+            <div className="buttonMatricula">
+                <ButtonMatricula />
+            </div>
         <Galeria />
         <QuemSomos />
         <DivInsta />
@@ -40,7 +42,7 @@ function Home() {
 
     </main>
 
-<p style={{textAlign:'center',margin:'25px'}}>&copy; Soarte 2022 - Todos os direitos reservados - v1.3.5</p>
+<p style={{textAlign:'center',margin:'25px'}}>&copy; Soarte 2022 - Todos os direitos reservados<br /> v1.3.5 </p>
 </div>
     )
 }
