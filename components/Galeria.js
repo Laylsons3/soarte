@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function Home() {
     return (
 <div>
@@ -61,6 +63,13 @@ function Home() {
       </div> 
     </div>
   </div>
+        
+
+        <div>
+            <Link href="/galeria">
+            <a className="button-ver-mais-galeria">Ver mais</a>
+            </Link>
+        </div>
 
 
 
