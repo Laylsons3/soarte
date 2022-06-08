@@ -6,5 +6,7 @@ import '../styles/styleHeader.scss'
 import '../styles/styleDivInsta.scss'
 
 export default function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+      <Component {...pageProps} />      
+  )
 }

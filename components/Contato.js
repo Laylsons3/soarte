@@ -3,17 +3,12 @@ function Home() {
 <div>
 
 <section className="contato" id="contato">
-            <div className="form-contato">
+            <div className="h1-contato">
                     <h1>Contato</h1>
-                <form method="get" style={{width:'350px',margin:'auto'}} autoComplete="on">
-                    <label>Nome: </label>
-                    <input name="nome" type="text" size="30" /><br />
-                    <label>E-mail: </label>
-                    <input name="email" type="text" size="30" /><br />
-                    <label>Mensagem: </label><br />
-                    <textarea name="message" rows="4" cols="38" /><br />
-                    <input style={{background:'green',padding:'6px 20px',fontSize:'14pt',fontWeight:'700',color:'#fff',}} type="submit"></input>
-                </form>
+                    <p>Email: <a href="mailto:soartemusica@gmail.com">soartemusica@gmail.com</a></p>
+                    <p>Telefone: <a href="tel:+558591292607">(85) 9 9129-2607</a></p>
+                    <p><a href="https://api.whatsapp.com/send?phone=85991292607">Falar no Whatsapp</a></p>
+                    
             </div>
     </section>
 

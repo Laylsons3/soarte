@@ -4,19 +4,20 @@
 //Botão verde rgb(0,128,0)
 
 import Head from 'next/head'
-import Header from '../components/Header.js'
-import Galeria from '../components/Galeria.js'
-import Cursos from '../components/Cursos.js'
-import QuemSomos from '../components/QuemSomos.js'
-import Apoie from '../components/Apoie.js'
-import Contato from '../components/Contato.js'
-import Footer from '../components/Footer.js'
+import Header from '../components/Header'
+import Galeria from '../components/Galeria'
+import Cursos from '../components/Cursos'
+import QuemSomos from '../components/QuemSomos'
+import Apoie from '../components/Apoie'
+import Contato from '../components/Contato'
+import Footer from '../components/Footer'
 import DivInsta from '../components/DivInsta'
 import ButtonMatricula from '../components/ButtonMatricula'
 
+
 function Home() {
     return (
-<div>   
+    <div>   
         <Head>
             <title>Soarte</title>
             <link rel="icon" type="image/x-icon" href="/images/logo-soarte.ico"/>
@@ -29,22 +30,26 @@ function Home() {
         <Header>  </Header>
 
     <main>
-            <div className="buttonMatricula">
-                <ButtonMatricula />
-            </div>
+        <div className="buttonMatricula">
+            <ButtonMatricula />
+        </div>
+            
         <Galeria />
         <QuemSomos />
         <DivInsta />
         <Cursos /> 
         <Apoie />
         <Contato />
+        
         <Footer />
 
     </main>
 
-<p style={{textAlign:'center',margin:'25px'}}>&copy; Soarte 2022 - Todos os direitos reservados<br /> v1.3.6 </p>
-</div>
+    <p style={{textAlign:'center',margin:'25px'}}>&copy; Soarte 2022 - Todos os direitos reservados<br /> v1.4.1 </p>
+    </div>
     )
 }
+
+
 
 export default Home

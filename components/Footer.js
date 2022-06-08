@@ -3,7 +3,7 @@ function Home() {
 <div>
 
 <footer>
-        <div style={{width:'320px', margin:'auto'}}>
+        <div className="footer">
                 <h2 style={{paddingBottom:'15px'}}>
                     Endereço da Soarte
                 </h2>
