@@ -1,0 +1,132 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --surface: #f4f8f3;
+  --surface-alt: #ffffff;
+  --ink: #1e241d;
+  --muted: #586357;
+  --brand: #1f6d3f;
+  --brand-strong: #175530;
+  --accent: #8fd19e;
+  --card: #f8fbf7;
+  --border: #dfe7df;
+  --shadow: 0 20px 60px rgba(30, 36, 29, 0.12);
+  --glow: 0 0 0 1px rgba(143, 209, 158, 0.4),
+    0 20px 50px rgba(31, 109, 63, 0.18);
+  --radius-xl: 28px;
+  --page-glow: radial-gradient(circle at top, rgba(143, 209, 158, 0.2), transparent 45%);
+}
+
+[data-theme="dark"],
+.dark {
+  color-scheme: dark;
+  --surface: #0b1210;
+  --surface-alt: #101915;
+  --ink: #e7efe9;
+  --muted: #b7c3bb;
+  --brand: #7bd08f;
+  --brand-strong: #94dfaa;
+  --accent: #4aa86b;
+  --card: #16211c;
+  --border: #22312a;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.5);
+  --glow: 0 0 0 1px rgba(123, 208, 143, 0.3),
+    0 25px 55px rgba(123, 208, 143, 0.2);
+  --page-glow: radial-gradient(circle at top, rgba(123, 208, 143, 0.15), transparent 45%);
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  letter-spacing: -0.015em;
+}
+
+p {
+  color: var(--muted);
+}
+
+::selection {
+  background: rgba(227, 185, 107, 0.4);
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.staff-lines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(31, 109, 63, 0.18),
+    rgba(31, 109, 63, 0.18) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+[data-theme="dark"] .staff-lines,
+.dark .staff-lines {
+  background-image: repeating-linear-gradient(
+    to bottom,
+    rgba(123, 208, 143, 0.25),
+    rgba(123, 208, 143, 0.25) 1px,
+    transparent 1px,
+    transparent 10px
+  );
+  opacity: 0.4;
+}
+
+.music-ribbon {
+  color: var(--brand);
+  opacity: 0.22;
+  pointer-events: none;
+}
+
+[data-theme="dark"] .music-ribbon,
+.dark .music-ribbon {
+  color: var(--brand);
+  opacity: 0.3;
+}
+
+.float-slow {
+  animation: float 8s ease-in-out infinite;
+}
+
+.float-fast {
+  animation: float 5s ease-in-out infinite;
+}
